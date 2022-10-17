@@ -4,10 +4,20 @@ Algorithms for hyperparameter optimization
 
 ### Installation
 
+First make sure you are using python3 ```python --version```. To set python3 as
+your default, an easy way is just to alias python to python3:
+
+```bash
+echo 'alias python="python3"' >> $HOME/.bashrc
+echo 'alias pip="pip3"' >> $HOME/.bashrc
+source $HOME/.bashrc
+```
+
 Clone the repository:
 
 ```bash
 git clone git@github.com:Laurits7/HyperEvolution.git
+cd HyperEvolution
 ```
 
 Create a virtual environment and activate it:
@@ -25,7 +35,8 @@ pip install -e .
 Now every time you need to run the code, you only need to source the environment again
 
 ### Examples
-    The example optimizations can be found under [examples](hyperevol/examples)
+
+The example optimizations can be found under [examples](hyperevol/examples)
 
 
 

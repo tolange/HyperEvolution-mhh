@@ -19,6 +19,7 @@ setup(
     install_requires=[
         'docopt',
         'scipy',
+        'six',
         'chaospy',
         'scikit-learn',
         'numpy',
