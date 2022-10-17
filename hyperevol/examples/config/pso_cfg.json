@@ -1,0 +1,6 @@
+{
+    "iterations": 500,
+    "population_size": 50,
+    "nr_informants": 5,
+    "seed": 1
+}
